@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portret Duszy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portret Duszy</h1>
+            <p class="subtitle">Soul Portrait</p>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h2>Welcome</h2>
+                <p>This is a Flask application running on Replit.</p>
+                <button id="healthCheck">Check Status</button>
+                <div id="status"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Portret Duszy</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
